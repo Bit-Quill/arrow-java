@@ -125,7 +125,7 @@ public class ArrowFlightJdbcBaseIntVectorAccessor extends ArrowFlightJdbcAccesso
       return 0;
     }
 
-    return holder.value;
+    return (short) holder.value;
   }
 
   @Override
